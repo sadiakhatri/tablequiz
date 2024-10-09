@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+    #main{
+        font-family: 'Times New Roman', Times, serif;
+        width: 850px;
+        border-collapse: collapse;
+        border: 2px white solid;
+        /* background-color: grey; */
+        /* box-sizing: border-box; */
+        padding: 5px;
+        margin: auto;
+    tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray for even rows */
+        }
+    }
+    .border{
+        /* margin-left: 25px; */
+     
+    }
+    .parent{
+            border: 5px solid white;
+            background-color: grey;
+    }
+    th{
+        height: 50px;
+        width: 25px;
+        color: white;
+        text-align: center;
+    }
+    td{
+        height: 50px;
+        width: 25px;
+        color: black;
+        text-align: center;
+    }
+    .child1{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .child2{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .child3{
+        border-spacing: 40%;
+        font-weight: bolder;
+    }
+    .child4{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .child5{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .child6{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .child7{
+        border-spacing: 10%;
+        font-weight: bolder;
+    }
+    .fa-solid{
+        color: blue;
+    }
+    </style>
+</head>
+<body>
+    <table id="main">
+        <tr class="parent">
+            <th class="child1"></th>
+            <th class="child2"></th>
+            <th class="child3">Product</th>
+            <th class="child4">Price</th>
+            <th class="child5">Quantity</th>
+            <th class="child6">Total</th>
+            <th class="child7"></th>
+    </tr>
+    <tr class="parent1">
+        <td class="child1"> <input type="checkbox"></td>
+        <td class="child2"> <img src="Watermelon.png" alt="" height="35" width="35"></td>
+        <td class="child3">Watermelon</td>
+        <td class="child4">$ 3.99 each</td>
+        <td class="child5"><button>2</button></td>
+        <td class="child6">$ 7.98</td>
+        <td class="child7"> <button class="fa-solid fa-xmark">x</button> </td>
+</tr>
+<tr class="parent1">
+    <td class="child1"> <input type="checkbox"></td>
+    <td class="child2"> <img src="strawberry.png" alt="" height="35" width="35"></td>
+    <td class="child3">Strawberry</td>
+    <td class="child4">$ 3.99 each</td>
+    <td class="child5"><button>4</button></td>
+    <td class="child6">$ 15.96</td>
+    <td class="child7"> <button class="fa-solid fa-xmark">x</button> </td>
+</tr>
+<tr class="parent1">
+    <td class="child1"> <input type="checkbox"></td>
+    <td class="child2"> <img src="Avocado.png" alt="" height="35" width="35"></td>
+    <td class="child3">Avocado</td>
+    <td class="child4">$ 3.99 each</td>
+    <td class="child5"><button>6</button></td>
+    <td class="child6">$ 23.94</td>
+    <td class="child7"> <button class="fa-solid fa-xmark">x</button> </td>
+</tr>
+<tr class="parent1">
+    <td class="child1"> <input type="checkbox"></td>
+    <td class="child2"> <img src="milk-bottle.avif" alt="" height="35" width="35"></td>
+    <td class="child3">Milk-bottle</td>
+    <td class="child4">$ 3.50 per gallon</td>
+    <td class="child5"><button>8</button></td>
+    <td class="child6">$ 28.00</td>
+    <td class="child7"> <button class="fa-solid fa-xmark">x</button> </td>
+</tr>
+<tr class="parent1">
+    <td class="child1"> <input type="checkbox"></td>
+    <td class="child2"> <img src="yogurt.jpg" alt="" height="35" width="35"></td>
+    <td class="child3">Yogurt</td>
+    <td class="child4">$ 10</td>
+    <td class="child5"><button>1</button></td>
+    <td class="child6">$ 10</td>
+    <td class="child7"> <button class="fa-solid fa-xmark">x</button> </td>
+</tr>
+    </table>
+    </body>
+
+
+            
